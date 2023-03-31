@@ -1,3 +1,0 @@
-CLIENT_ID:"paste here"
-CLIENT_SECRET:"paste here"
-BOT_TOKEN:"paste here"
