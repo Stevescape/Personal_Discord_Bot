@@ -18,8 +18,7 @@ class WockaBot(discord.Client):
             print(vc)
 
         if (message.content == "dc"):
-            vc = (self.voice_clients.channel)
-            print(vc)
+            vc = self.voice_clients[0]
             await vc.disconnect()
 
 if __name__ == "__main__":
